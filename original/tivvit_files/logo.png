@@ -1,0 +1,43 @@
+
+            <!DOCTYPE html>
+        
+            <html lang="cs">
+        
+            <head>
+        
+            <title>Seznam - najdu tam, co neznám</title>
+        
+            <meta charset="utf-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta content="width=device-width, initial-scale=1, minimal-ui" name="viewport" />
+            <meta name="description" content="Nejnavštěvovanější český internetový portál nabízející vyhledávač, e-mail, aktuální zprávy, předpověď počasí a odkazy, které se mohou hodit." />
+            <meta name="application-name" content="Seznam.cz" />
+            <meta name="apple-itunes-app" content="app-id=950278657, app-argument=https://www.seznam.cz" />
+            <meta content="/media/img/logo-share-square_v2.png" property="og:image" />
+        
+            <script type="text/javascript" src="//h.imedia.cz/js/dot-small.js"></script>
+        
+            <link rel="stylesheet" href="/1.26.49/css/error-pages.min.css" media="all" />
+        
+            </head>
+        
+            <body>
+        <div id="hp-app"><div data-page-index="true" data-reactroot="" data-reactid="1" data-react-checksum="435800407"><header class="header" data-reactid="2"><div class="header__logo" data-reactid="3"><a href="/" class="seznam-logo link focusable-box" data-dot="seznam-logo" data-reactid="4"><img class="seznam-logo__image" src="/media/img/logo_v2.png" alt="Seznam.cz - hlavní strana" title="Seznam.cz - hlavní strana" data-reactid="5"/></a></div></header><div class="err-content" data-reactid="6"><div class="err-content__text-box" data-reactid="7"><h1 class="err-content__title" data-reactid="8">Jejda, tahle adresa neexistuje.</h1><a class="err-content__button button button--submit" href="/" data-reactid="9">Přejít na Seznam.cz</a></div></div><footer class="footer" data-reactid="10"><p class="footer__links" data-reactid="11"><span class="footer__link-wrap" data-reactid="12"><a class="link" href="https://napoveda.seznam.cz/cz/seznam/vse-o-hlavni-strance/" data-reactid="13"> Nápověda </a></span><span class="footer__link-wrap" data-reactid="14"><a class="link" href="https://napoveda.seznam.cz/cz/services" data-reactid="15"> Technická podpora </a></span></p><p class="footer__copyright" data-reactid="16"><!-- react-text: 17 -->Copyright © 1996-<!-- /react-text --><!-- react-text: 18 -->2017<!-- /react-text --><!-- react-text: 19 -->, Seznam.cz, a.s.<!-- /react-text --></p></footer></div></div>
+            <script type="text/javascript">
+                DOT.cfg({service: "hp-404"});
+            </script>
+            <script type="text/javascript">
+                var pp_gemius_identifier = new String('zPqa1mtIGwIIUTArWbRO8aP8DiFitudiA60.ErFTDhz.87');
+                var pp_gemius_extraparameters = new Array('gA=seznam.cz/homepage_Seznam.cz/stranka404');
+
+                function gemius_pending(i) { window[i] = window[i] || function() {var x = window[i+'_pdata'] = window[i+'_pdata'] || []; x[x.length]=arguments;};};
+                gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event');
+                (function(d,t) {try {var gt=d.createElement(t),s=d.getElementsByTagName(t)[0],l='http'+((location.protocol=='https:')?'s':'');
+                gt.setAttribute('async','async'); gt.setAttribute('defer','defer'); gt.src=l+'://gacz.hit.gemius.pl/xgemius.js'; s.parentNode.insertBefore(gt,s);} catch (e)
+                {}})(document,'script');
+            </script>
+        
+            </body>
+        
+            </html>
+        
