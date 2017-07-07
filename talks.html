@@ -1,0 +1,18 @@
+---
+layout: default
+title: Talks | tivvit.cz
+id: talks
+---
+<p>If you want me to speak at your event just write me an email.</p>
+<h2>Public</h2>
+<div>
+    {% for talk in site.talks reversed %}
+    {{ talk | markdownify }}
+    {% endfor %}
+</div>
+
+<h2>Non-public</h2>
+<div>
+{% capture non_public_talks %}{% include non-public-talks.md %}{% endcapture %}
+{{ non_public_talks | markdownify }}
+</div>

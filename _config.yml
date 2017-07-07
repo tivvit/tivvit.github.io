@@ -1,0 +1,19 @@
+name: tivvit.cz
+
+collections:
+  projects:
+  talks:
+
+#incremental: true
+
+markdown: kramdown
+
+exclude:
+  - docker-compose.yaml
+
+sass:
+  style: compressed
+
+#plugins: TODO 3.5
+gem:
+  - jekyll-sitemap

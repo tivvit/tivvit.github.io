@@ -1,0 +1,14 @@
+<div class="container">
+    <nav>
+        <ul class="nav nav-pills">
+            <li {% if page.id == "about" %}class="active"{% endif %}><a href="/about">About me</a></li>
+            <li {% if page.id == "projects" %}class="active"{% endif %}><a href="/">Portfolio</a></li>
+            <li {% if page.id == "research" %}class="active"{% endif %}><a href="/research">Research</a></li>
+            <li {% if page.id == "talks" %}class="active"{% endif %}><a href="/talks">Talks</a></li>
+            <li {% if page.id == "competitions" %}class="active"{% endif %}><a href="/competitions">Competitions</a></li>
+            <li {% if page.id == "skills" %}class="active"{% endif %}><a href="/skills">Skills</a></li>
+            <li><a href="http://blog.tivvit.cz/">Blog</a></li>
+            <li><a href="/cv">Resume (CV)</a></li>
+        </ul>
+    </nav>
+</div>
