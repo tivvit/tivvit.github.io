@@ -8,6 +8,6 @@ labels:
     - Socket.io 
     - CSS animations 
     - Drag & drop
-link: http://tivvit.cz/mtd
+link: http://web-kladno.cz/mtd
 ---
 Pure JS Tower Defence game.

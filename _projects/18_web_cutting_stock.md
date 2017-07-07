@@ -5,6 +5,6 @@ start: 2014
 type: web
 labels:
     - Dart
-link: http://tivvit.cz/cuttingstock
+link: http://web-kladno.cz/cuttingstock
 ---
 Combinatorial optimization problem
