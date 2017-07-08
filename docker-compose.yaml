@@ -7,3 +7,19 @@ services:
     volumes:
     - "$PWD:/srv/jekyll"
     command: "jekyll serve --watch"
+  generate:
+    image: jekyll/jekyll:3.4
+    volumes:
+    - "$PWD:/srv/jekyll"
+    command: "jekyll b"
+  firebase-deploy:
+    build: firebase
+    volumes:
+    - ~/.config/:/root/.config/
+    - $PWD:/app
+    command: "firebase deploy"
+  pdf-cv:
+    image: openlabs/docker-wkhtmltopdf
+    volumes:
+    - $PWD:/data
+    command: "file:///data/_site/cv.html /data/_site/cv.pdf"
