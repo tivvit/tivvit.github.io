@@ -18,6 +18,5 @@ exclude:
 sass:
   style: compressed
 
-#plugins: TODO 3.5
-gem:
+gems:
   - jekyll-sitemap
