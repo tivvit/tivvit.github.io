@@ -4,7 +4,7 @@ collections:
   projects:
   talks:
 
-#incremental: true
+incremental: true
 
 markdown: kramdown
 
@@ -13,6 +13,7 @@ exclude:
   - firebase.json
   - README.md
   - firebase
+  - deploy.sh
 
 sass:
   style: compressed
