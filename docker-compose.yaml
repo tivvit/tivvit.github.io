@@ -15,7 +15,7 @@ services:
   firebase-deploy:
     build: firebase
     volumes:
-    - ~/.config/:/root/.config/
+    - ~/.config/:/home/node/.config/
     - $PWD:/app
     command: "firebase deploy"
   pdf-cv:
