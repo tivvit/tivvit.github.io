@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vit Listik resume</title>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700'
+          rel='stylesheet' type='text/css'>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
           integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
@@ -28,7 +29,7 @@
 <h1>Vít Listík</h1>
 
 <p>
-    11.6.1991; Kladno 7, Josefa Bejčka 1259, 273 09<br/>
+    11.6.1991; Kladno 7, Josefa Bejčka 1259, 273 09, Czechia<br/>
     +420 728 997 867, <a href="mailto:vit.listik@gmail.com">vit.listik@gmail.com</a>, <a href="mailto:tivvit@seznam.cz">tivvit@seznam.cz</a><br/>
     <a href="https://www.linkedin.com/in/tivvit">https://www.linkedin.com/in/tivvit</a>
 </p>
@@ -40,34 +41,42 @@
 </p>
 <p>
     Nowadays I'm using image recognition methods for spam detection as part of my Ph.D. studies. In spare time I play with other machine learning tasks and interesting technologies.
-    
+
 </p>
 
 <h2>WORK EXPERIENCE</h2>
 
-<div class="clearfix lineBlock first">
+<div>
+<div class="clearfix lineBlock">
     <div class="col-xs-9">
         <b>Python/C++ developer</b> <i>Seznam.cz - Email.cz team</i>
     </div>
     <div class="col-xs-3 date">2014 - present</div>
     <div class="col-xs-12">
         Biggest freemail provider in Czech Republic (~50M emails/day)<br>
-        Anti-spam, Data Processing (Hadoop, Spark), Machine Learning, Neural Nets (Keras, Tensorflow), Reliable scalable services, Linux, Teamwork
+        Anti-spam, Data Processing (Hadoop, Spark), Machine Learning, Neural
+        Nets (Keras, Tensorflow), Kubernetes (hundreds of servers), Reliable
+        scalable services, Linux, Teamwork
     <ul>
-        <li>Image processing pipeline (Convolutional NN)</li>
-        <li>Email statistics aggregation pipeline</li>
-        <li>DMARC</li>
+        <li>Image processing pipeline (Design and implementation, Convolutional
+            NN)</li>
+        <li>Email statistics aggregation pipeline - DB writes optimization
+            (ZMQ, Bloom filter)</li>
+        <li>DMARC, DKIM, SPF</li>
         <li>Aerospike DB</li>
-        <li>Science articles reading group</li>
+        <li>Science articles reading group (organizer, speaker)</li>
     </ul>
     </div>
 </div>
 <div class="clearfix lineBlock">
     <div class="col-xs-9">
-        <b>Freelance web developer</b> <i>Founder at web-kladno.cz - ID 87582961</i><br>
+        <b>Freelance Web developer</b> <i>Founder at Web-kladno.cz - ID
+        87582961</i><br>
     </div>
     <div class="col-xs-3 date">2008 - present</div>
-    <div class="col-xs-12">Web applications and presentations - backend (PHP), frontend (JS, HTML5, CSS3)</div>
+    <div class="col-xs-12">Web applications and presentations - backend
+        (PHP), frontend (JS, HTML5, CSS3)
+    </div>
 </div>
 <div class="clearfix lineBlock">
     <div class="col-xs-9">
@@ -76,188 +85,239 @@
     <div class="col-xs-3 date">2012 - 2015</div>
     <div class="col-xs-12">Administration of Linux server and Windows workstations, Networking, File Sharing</div>
 </div>
+</div>
 
 <h2>EDUCATION</h2>
 
-<div class="clearfix lineBlock first">
-    <div class="col-xs-9">
-        Czech Technical University in Prague (CTU)<br>
-        Faculty of Electrical Engineering (FEL) <b>Artificial Intelligence</b><br>
+<div>
+<div class="clearfix lineBlock">
+    <div class="clearfix">
+        <div class="col-xs-9">
+            Czech Technical University in Prague (CTU)<br>
+            Faculty of Electrical Engineering (FEL) <b>Artificial Intelligence</b><br>
+        </div>
+        <div class="col-xs-3 date">
+            2015 - present<br>
+            <b>Ph.D.</b>
+        </div>
     </div>
-    <div class="col-xs-3 date">
-        2015 - present<br>
-        <b>Ph.D.</b>
-    </div>
-    <div class="col-xs-12">Image recognition in cooperation with Prof. Ing. Vaclav Hlavac, Csc. and Ing. Jan Sedivy,
-        Csc.
+    <div class="col-xs-12">
+        Spam Image Recognition
+        <ul>
+            <li>Supervision: Prof. Ing. Vaclav Hlavac, Csc. and Ing. Jan Sedivy, Csc.</li>
+            <li>Convolutional NN, Tracking image detection, User reaction
+                prediction, OCR</li>
+        </ul>
     </div>
 </div>
 <div class="clearfix lineBlock">
-    <div class="col-xs-9">
-        CTU, FEL, <b>Software Engineering</b><br>
-        Ended by the final state exam<br>
-        Thesis: Detecting phishing emails in Czech language for Email.cz
+    <div class="clearfix">
+        <div class="col-xs-9">
+            CTU, FEL, <b>Software Engineering</b><br>
+            Ended by the final state exam<br>
+        </div>
+        <div class="col-xs-3 date">
+            2013 - 2015<br>
+            <b>Masters</b>
+        </div>
     </div>
-    <div class="col-xs-3 date">
-        2013 - 2015<br>
-        <b>Masters</b>
+    <div class="col-xs-12">
+        Master Thesis: Detecting Phishing Emails in Czech Language for Email.cz
+        <ul>
+            <li>Won Cisco Outstanding Thesis Award 2015</li>
+            <li>Machine Learning (NLP, Bag of Words, Decision trees), Python</li>
+        </ul>
     </div>
 </div>
 <div class="clearfix lineBlock">
-    <div class="col-xs-9">
-        CTU, Faculty of Biomedical Engineering, <b>Biomedical Informatics</b><br>
-        Ended by the final state exam<br>
-        Thesis: Algorithms for signal processing in respiratory care
+    <div class="clearfix">
+        <div class="col-xs-9">
+            CTU, Faculty of Biomedical Engineering (FBMI), <b>Biomedical
+            Informatics</b><br>
+            Ended by the final state exam<br>
+        </div>
+        <div class="col-xs-3 date">
+            2010 - 2013<br>
+            <b>Bachelors</b>
+        </div>
     </div>
-    <div class="col-xs-3 date">
-        2010 - 2013<br>
-        <b>Bachelors</b>
+    <div class="col-xs-12">
+        Bachelor Thesis: Algorithms for Signal Processing in Respiratory Care
+        <ul>
+            <li>iMon - Real-time measuring of respiratory system
+                parameters (C#, Ni-DAQ, Multithreaded)</li>
+        </ul>
     </div>
 </div>
 <div class="clearfix lineBlock">
     <div class="col-xs-9">
         <b>Gymnasium</b> Kladno Edvard Benes, general studies<br>
-        Graduation: math, IT, English and Czech
+        Graduation: Math, IT, English and Czech
     </div>
     <div class="col-xs-3 date">
         2006 - 2010
     </div>
 </div>
-    
-<h2>Publications</h2>
-<div class="clearfix block">
-    <ul>
-        <li>LISTÍK, V. and Tomáš, G., Phishing Email Detection in Czech Language.</li>
-    </ul>
 </div>
 
-<a href="https://scholar.google.cz/citations?user=DL5YjlIAAAAJ&hl=cs">All publications</a>
+<div style="page-break-before:always;"></div>
+
+<h2>PUBLICATIONS</h2>
+<div>
+<div class="clearfix block lineBlock">
+    <ul>
+        <li>LISTÍK, V. and Tomáš, G., Phishing Email Detection in Czech
+            Language. 2016</li>
+        <li>Thesis supervision
+            <ul>
+                <li>Petr Liška, User Authentication based on Keystroke
+                    Dynamics, 2016<br> (One of the TOP 10 Thesis defended at
+                    FEL CTU 2016)</li>
+                <li>Šimon Ondráček, Personalised Antispam filter for Email.cz, 2016</li>
+                <li>Šimon Let, Phishing Email Detection based on Entity Recognition, 2017</li>
+            </ul>
+        </li>
+
+    </ul>
+</div>
+</div>
+<a href="https://tivvit.cz/research">All publications (https://tivvit.cz/research)</a>
 
 <h2>PROJECTS</h2>
 
-<div class="clearfix block">
-    <div class="col-xs-3">
-        <b>Phishing detection</b><br>
-        2015 - present
-    </div>
+<div>
+<div class="clearfix block lineBlock">
     <div class="col-xs-9">
-        Master thesis: Won Cisco Outstanding Thesis Award 2015<br>
-        Machine Learning (Bag of Words, Decision trees), Statistics, Python
+        <b>Autonomous Crypto Currency Trading</b>
+    </div>
+    <div class="col-xs-3 date">
+        2017 - present
+    </div>
+    <div class="col-xs-12">
+        Real-time, RNN, CNN, Regression, Visualization, Python
     </div>
 </div>
-<div class="clearfix block">
-    <div class="col-xs-3">
-        <b>Thesis supervision</b><br>
+<div class="clearfix block lineBlock">
+    <div class="col-xs-9">
+        <b>Datasets</b>
+    </div>
+    <div class="col-xs-3 date">
         2016 - present
     </div>
-    <div class="col-xs-9">
-        Petr Liška, User Authentication based on Keystroke Dynamics, 2016 (One of the TOP 10 Thesis defended at FEL CTU 2016)<br>
-        Šimon Ondráček, Personalised Antispam filter for Email.cz, 2016<br>
-        Šimon Let, Phishing Email Detection based on Entity Recognition, 2017
+    <div class="col-xs-12">
+        Organizing and searching data sets, experiment consistency and
+        repeatability<br>
+        Based on Goods: Organizing google’s datasets. Python, Flask, OSS, Docker
     </div>
 </div>
-<div class="clearfix block">
-    <div class="col-xs-3">
-        <b>Surfarena.cz</b><br>
-        2016 - present
-    </div>
+<div class="clearfix block lineBlock">
     <div class="col-xs-9">
-        Custom made reservation system for indoor surfing, PHP
+        <b>Web applications and presentations</b>
+    </div>
+    <div class="col-xs-3 date">
+        2005 - present
+    </div>
+    <div class="col-xs-12">
+        <ul>
+            <li>Surfarena.cz - Custom made reservation system for indoor surfing, PHP</li>
+            <li>Lodestarcoffe.cz - Custom made eshop, CMS, Nette, Latte,
+                Bootstrap, jQuery, Doctrine</li>
+            <li>Presentation websites - mostly in PHP and JS. Wordpress or
+                custom made
+        CMS</li>
+        </ul>
     </div>
 </div>
-<div class="clearfix block">
-    <div class="col-xs-3">
-        <b>Devfest RPG</b><br>
+<div class="clearfix block lineBlock">
+    <div class="col-xs-9">
+        <b>Devfest RPG</b>
+    </div>
+    <div class="col-xs-3 date">
         2014
     </div>
-    <div class="col-xs-9">Open source support app for RPG game on Devfest 2014 in CR<br>
-        Backend API, Python, Google Appengine, Dart
+    <div class="col-xs-12">Support app for RPG game on Devfest 2014 in CR.
+        REST API, Python, Google AppEngine, OSS
     </div>
 </div>
-<div class="clearfix block">
-    <div class="col-xs-3">
-        <b>iMon</b><br>
-        2010 - present
-    </div>
+<div class="clearfix block lineBlock">
     <div class="col-xs-9">
-        Bachelor Thesis: Measuring respiratory system parameters<br>
-        Real-time processing, C#, Ni-DAQ, Multithreaded
+        <b>2D cutting stock problem</b>
     </div>
-</div>
-<div class="clearfix block">
-    <div class="col-xs-3">
-        <b>2D cutting stock problem</b><br>
+    <div class="col-xs-3 date">
         2013
     </div>
-    <div class="col-xs-9">Combinatorial optimization problem solved in Dart</div>
+    <div class="col-xs-9">Combinatorial optimization problem solved in Dart.
+        OSS</div>
 </div>
-<div class="clearfix block">
-    <div class="col-xs-3">
-        <b>Lodestarcoffee</b><br>
-        2010 - present
-    </div>
-    <div class="col-xs-9">Custom made eshop, CMS, Nette, Latte, Bootstrap, jQuery, Angular
-        JS, Doctrine
-    </div>
 </div>
 
 More projects at <a href="https://tivvit.cz">tivvit.cz</a> and code at <a href="https://github.com/tivvit">https://github.com/tivvit</a>
 
 <h2>SKILLS</h2>
 
-<div class="clearfix block">
+<div>
+<div class="clearfix block lineBlock">
     <div class="col-xs-3">
         Languages
     </div>
     <div class="col-xs-9">
         <b>Czech</b> - Native speaker<br>
         <b>English</b> - Very good in writing and reading, good in speaking<br>
-        <b>German</b> - Good in reading and writing, beginner in speaking
+        <b>German</b> - Good in reading, beginner in writing and speaking
     </div>
 </div>
 
-<div class="clearfix block">
+<div class="clearfix block lineBlock">
     <div class="col-xs-3">
         IT
     </div>
     <div class="col-xs-9">
-        Machine Learning, Data Processing, Scalability, Database systems (SQL, NoSQL), Cloud, Git, Web technologies,
-        POSIX<br>
-        Languages: Python, PHP, C++, JS
+        Machine Learning, Data Processing, Scalability, Database systems
+        (SQL, NoSQL), DevOps, Cloud, Git, Web technologies, POSIX, OSS<br>
+        <b>Languages</b>: Python, PHP, C++, JS
     </div>
 </div>
-<div class="clearfix block">
-    <div class="col-xs-12">
+<div class="clearfix block lineBlock">
+    <div class="col-xs-3">
+        Other
+    </div>
+    <div class="col-xs-9">
         Driving license class B
     </div>
+</div>
 </div>
 
 <h2>INTERESTS AND ACTIVITIES</h2>
 
-<div class="clearfix block">
-    <div class="col-xs-2">
+<div>
+<div class="clearfix block lineBlock">
+    <div class="col-xs-3">
         Programming
     </div>
-    <div class="col-xs-10">
+    <div class="col-xs-9">
         Programming competitions, Docker, IOT, Distributed Storage, Languages (Rust, Golang), Bitcoin<br>
         Public speaking<br>
         <b>GDG ČVUT</b> [since 2013] Event organizer<br>
-        <b>GDG Garage Prague</b> [since 2014] main organizer
+        <b>GDG Garage Prague</b> [since 2014] Main organizer
     </div>
 </div>
-<div class="clearfix block">
-    <div class="col-xs-2">
+<div class="clearfix block lineBlock">
+    <div class="col-xs-3">
         Sports
     </div>
-    <div class="col-xs-10">
+    <div class="col-xs-9">
         <b>Martial Arts</b> - Systema, Karate (1.kyu) - 3rd-grade trainer, Allkampf-Jitsu (2.kyu), Kickbox (3.kyu)<br/>
-        Swimming, extreme races, ping-pong
+        Swimming, Extreme races (Spartan race), Ping-pong
     </div>
 </div>
-<div class="clearfix block">
-    <div class="col-xs-12">
-        Digital Photography, Technology, sci-fi, TV series, Go
+<div class="clearfix block lineBlock">
+    <div class="col-xs-3">
+        Other
     </div>
+    <div class="col-xs-9">
+        Digital Photography, Technology, Sci-Fi, TV Series, Go
+    </div>
+</div>
 </div>
 
 <p id="online-location">You may find actual copy of my CV at <a

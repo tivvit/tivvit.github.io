@@ -22,4 +22,4 @@ services:
     image: openlabs/docker-wkhtmltopdf
     volumes:
     - $PWD:/data
-    command: "file:///data/_site/cv.html /data/_site/cv.pdf"
+    command: "--print-media-type file:///data/_site/cv.html /data/_site/cv.pdf"
