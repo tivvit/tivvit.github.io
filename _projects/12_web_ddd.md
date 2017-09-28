@@ -7,7 +7,6 @@ labels:
     - PHP
     - JS 
     - jQuery 
-link: http://lifestat.tivvit.cz/
 ---
 * Improving and maintaining sites written in PHP
 * Single page forms in jQuery

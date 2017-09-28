@@ -2,10 +2,10 @@ name: tivvit.cz
 url: https://tivvit.cz
 
 collections:
-  projects:
-  talks:
+  - projects
+  - talks
 
-incremental: true
+#incremental: true
 
 markdown: kramdown
 
