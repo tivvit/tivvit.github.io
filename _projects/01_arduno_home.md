@@ -11,4 +11,4 @@ labels:
     - IOT
 git: https://github.com/tivvit/smart-home
 ---
-Home monitoring toolkit
+Home monitoring toolkit. Talk about this project at [Devfest 2015](/talks#developer-home-smart-home)

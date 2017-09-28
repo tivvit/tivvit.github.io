@@ -1,4 +1,4 @@
-<div class="project">
+<div class="project" id="{{ page.title | slugify }}">
     <div class="clearfix project-header">
         <h4 class="col-sm-9">
             {% if page.link %}<a href="{{ page .link}}">{% endif %}{{ page.title }}{% if page.link %}</a>{% endif %}
