@@ -1,4 +1,4 @@
-<div class="project" id="{{ page.title | slugify }}">
+<div class="project" id="{{ page.type | slugify }}_{{ page.title | slugify }}">
 <div class="clearfix project-header">
     <h4 class="col-sm-5">{% if page.link %}<a
             href="{{ page.link}}">{% endif %}{{ page.title }}{% if page.link %}</a>{% endif %} {% if page.git %}<a href="{{ page.git }}"><img class="git" src="img/git.svg"></a>{% endif %} <span class="date">{{ page.start }}{% if page.start and page.end %}-{% endif %}{{ page.end }}</span></h4><div class="col-sm-7 text-sm-right tags">{% for label in page.labels %}<span class="label label-default">{{ label }}</span> {% endfor %}</div>
