@@ -18,6 +18,11 @@ services:
     - ~/.config/:/home/node/.config/
     - $PWD:/app
     command: "firebase deploy"
+  firebase-login:
+    build: firebase
+    volumes:
+    - ~/.config/:/home/node/.config/
+    command: "firebase login --no-localhost"
   pdf-cv:
     image: openlabs/docker-wkhtmltopdf
     volumes:
