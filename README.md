@@ -3,7 +3,7 @@ My personal page https://tivvit.cz and https://tivvit.github.io/
 
 ## Deploy
 ```
-./deploy.sh
+make deploy
 ```
 
 ### Steps
