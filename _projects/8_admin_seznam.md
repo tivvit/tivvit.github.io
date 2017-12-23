@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Seznam.cz Kubernetes"
+title: "Seznam.cz Kubernetes (DevOps)"
 labels:
     - Kubernetes
     - Docker
