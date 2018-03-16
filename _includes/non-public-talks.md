@@ -1,6 +1,6 @@
 * Email.cz Reading Group (internal Email.cz talks about academic papers - creator, organizer, speaker)
   * 8.3.2018 How GANs work [slides](https://docs.google.com/presentation/d/1EeZyCsSC4SInHORtfnspV3cmw1q4XwFXZtgicThFdMk/edit?usp=sharing)
-  * 15.2.2018 The Case for Learned Index Structures [scli](https://docs.google.com/presentation/d/1jGlT443sxdBodQ40F8b3JgJGoVfwVORg-7h6cm1Uv5U/edit?usp=sharing)
+  * 15.2.2018 The Case for Learned Index Structures [slides](https://docs.google.com/presentation/d/1jGlT443sxdBodQ40F8b3JgJGoVfwVORg-7h6cm1Uv5U/edit?usp=sharing)
   * 12.2.2018 Scli [slides](https://docs.google.com/presentation/d/11-Lq0-SxkvEgCHrjY3RGR5JI4ZdMZfqqNCiLfPkjtg4/edit?usp=sharing)
   * 4.1.2018 Neural Networks basics [demo and slides](https://github.com/tivvit/nn-basics)
   * 16.11.2017 Capsule networks [slides](https://docs.google.com/presentation/d/152ffc-Dyb--bgGWsorLut43oM4vjFWMnb-cUAlwgoiI/edit?usp=sharing)
