@@ -1,4 +1,8 @@
-* Email reading group (internal Email.cz talks about academic papers - creator, organizer, speaker)
+* Email.cz Reading Group (internal Email.cz talks about academic papers - creator, organizer, speaker)
+  * 8.3.2018 How GANs work [slides](https://docs.google.com/presentation/d/1EeZyCsSC4SInHORtfnspV3cmw1q4XwFXZtgicThFdMk/edit?usp=sharing)
+  * 15.2.2018 The Case for Learned Index Structures [slides](https://docs.google.com/presentation/d/1jGlT443sxdBodQ40F8b3JgJGoVfwVORg-7h6cm1Uv5U/edit?usp=sharing)
+  * 12.2.2018 Scli [slides](https://docs.google.com/presentation/d/11-Lq0-SxkvEgCHrjY3RGR5JI4ZdMZfqqNCiLfPkjtg4/edit?usp=sharing)
+  * 4.1.2018 Neural Networks basics [demo and slides](https://github.com/tivvit/nn-basics)
   * 16.11.2017 Capsule networks [slides](https://docs.google.com/presentation/d/152ffc-Dyb--bgGWsorLut43oM4vjFWMnb-cUAlwgoiI/edit?usp=sharing)
   * 26.10.2017 AlphaGo Zero [slides](https://docs.google.com/presentation/d/16-SL3y63V91gnlqLwpL6XI7ZldjNhgzlWP85UwnS0Xo/edit?usp=sharing)
   * 12.10.2017 Blockchain & Bitcoin [slides](https://docs.google.com/presentation/d/1BqJTZg4tpSogbQOFg6Nm4_dL08kQrXj1IIXLx-dXoHk/edit?usp=sharing)
@@ -16,8 +20,10 @@
   * 9.2.2017 Deep Reinforcement Learning [slides](https://docs.google.com/presentation/d/1N9FFjTs4bxoh_3UiCLRc3fIXVw4NmzCDgADU1-BqJRk/edit?usp=sharing)
   * 26.1.2017 Joint Face Detection and Alignment using Multi-task Cascaded 
   Convolutional Networks [slides](https://docs.google.com/presentation/d/1Glik12iMa_ESdXraK1SonyDpowwqx1h3_nky-0Pj3mg/edit?usp=sharing)
-  * 19.1.2017 Reading Text in the Wild with Convolutional Neural Networks 
-    [slides](https://docs.google.com/presentation/d/1-cCkxutsvkmie5DRS7m3VrnRFQtgPsh5EmNU4X26DXY/edit?usp=sharing)
+  * 19.1.2017 Reading Text in the Wild with Convolutional Neural Networks [slides](https://docs.google.com/presentation/d/1-cCkxutsvkmie5DRS7m3VrnRFQtgPsh5EmNU4X26DXY/edit?usp=sharing)
+* Seznam.cz Research Mountains
+  * 13.1.2018 Goods: Organizing Datasets [slides](https://docs.google.com/presentation/d/1nOfF1214DTSCq0O36_YlkA-cOc588s-nWtBxtvmRiS4/edit?usp=sharing)
+    * Won the Best Presentation Award (Out of 21 presentations)
 * Seznam.cz Fulltext reading group
   * Regular attendee
   * Papers are shortly presented (2 min), 2 best papers are presented next 
