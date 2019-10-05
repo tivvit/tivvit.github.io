@@ -8,6 +8,7 @@ labels:
     - Tensorflow
 event: "Moving Fast - Jak zvládnout přirozenou inteligencí tu umělou"
 language: cs
+link: https://www.meetup.com/MOVING-FAST/events/263834049/
 place: "Cineport Ostrava, Moravská Ostrava 3369, Moravská Ostrava a Přívoz"
 slides: https://docs.google.com/presentation/d/1k1Wjwaua5nzTziGwwNxxMwstVmb3Lpc0ClttlCUnquk/edit?usp=sharing 
 ---
