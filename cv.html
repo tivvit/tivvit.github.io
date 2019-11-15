@@ -43,7 +43,8 @@
     Nowadays I'm using image recognition methods for spam detection as part
     of my Ph.D. studies. In spare time I play with other machine learning
     tasks and interesting technologies. I am also interested in DevOps,
-    that is why I am working on Kubernetes deployment at Seznam.cz.
+    that is why I am working on Kubernetes deployment and LaaS (Logging as a
+    Service) at Seznam.cz.
 </p>
 
 <h2>WORK EXPERIENCE</h2>
@@ -51,22 +52,22 @@
 <div>
 <div class="clearfix lineBlock">
     <div class="col-xs-9">
-        <b>Python/C++ developer</b> <i>Seznam.cz - Email.cz team</i>
+        <b>Python/C++ developer</b> <i>Seznam.cz - Email.cz team, Infra team</i>
     </div>
-    <div class="col-xs-3 date">2014 - present</div>
+    <div class="col-xs-3 date">7/2014 - present</div>
     <div class="col-xs-12">
         Biggest freemail provider in Czech Republic (~50M emails/day)<br>
         Anti-spam, Data Processing (Hadoop, Spark), Elasticsearch, Machine
-        Learning, Neural Nets (Keras, Tensorflow), Kubernetes (hundreds of servers), Reliable
+        Learning, Neural Nets (Keras, Tensorflow), LaaS, Kubernetes (hundreds of servers), Reliable
         scalable services, Linux, Teamwork
     <ul>
         <li>Image processing pipeline (Design and implementation, Convolutional
             NN)</li>
         <li>Email statistics aggregation pipeline - DB writes optimization
-            (ZMQ, Bloom filter)</li>
-        <li>DMARC, DKIM, SPF</li>
-        <li>Aerospike DB</li>
-        <li>DevOps</li>
+            (Golang, ZMQ, Bloom filter)</li>
+        <li>Email security - DMARC, DKIM, SPF</li>
+        <li>DevOps - LaaS, K8s</li>
+        <li>Aerospike DB (key-value), Elasticsearch, Loki</li>
         <li>Science articles reading group (organizer, speaker)</li>
     </ul>
     </div>
@@ -85,7 +86,7 @@
     <div class="col-xs-9">
         <b>IT Administrator</b> <i>Diagnostic Institute for Youth, Prague 2</i><br>
     </div>
-    <div class="col-xs-3 date">2012 - 2015</div>
+    <div class="col-xs-3 date">9/2012 - 2/2015</div>
     <div class="col-xs-12">Administration of Linux server and Windows workstations, Networking, File Sharing</div>
 </div>
 </div>
@@ -98,18 +99,21 @@
         <div class="col-xs-9">
             Czech Technical University in Prague (CTU)<br>
             Faculty of Electrical Engineering (FEL) <b>Artificial Intelligence</b><br>
+            Finished <i>study block</i>
         </div>
         <div class="col-xs-3 date">
             2015 - present<br>
-            <b>Ph.D.</b>
+            <b>Ph.D.</b><br />
+            combined
         </div>
     </div>
     <div class="col-xs-12">
-        Spam Image Recognition
+        Topic: Image Spam Recognition
         <ul>
-            <li>Supervision: Prof. Ing. Vaclav Hlavac, Csc. and Ing. Jan Sedivy, Csc.</li>
+            <li>Supervision: Prof. Ing. Václav Hlaváč, Csc. and Ing. Jan
+                Šedivý, Csc.</li>
             <li>Convolutional NN, Tracking image detection, User reaction
-                prediction, OCR</li>
+                prediction, OCR, clustering</li>
         </ul>
     </div>
 </div>
@@ -169,15 +173,21 @@
 <div>
 <div class="clearfix block lineBlock">
     <ul>
-        <li>LISTÍK, V. and Tomáš, G., Phishing Email Detection in Czech
-            Language. 2016</li>
+        <li>V Listík, Š Let, J Šedivý, V Hlaváč; Phishing Email Detection
+            based on Named Entity Recognition; ICISSP 2019</li>
+        <li>V Listík; CNN based near-duplicate image detection used for email
+            spam detection; Poster 2019</li>
+        <li>V Listík, T Gogár; Phishing Email Detection in Czech
+            Language; Poster 2016</li>
         <li>Thesis supervision
             <ul>
-                <li>Petr Liška, User Authentication based on Keystroke
-                    Dynamics, 2016<br> (One of the TOP 10 Thesis defended at
+                <li>Šimon Let; Phishing Email Detection based on Entity
+                    Recognition; 2017</li>
+                <li>Petr Liška; User Authentication based on Keystroke
+                    Dynamics; 2016<br> (One of the TOP 10 Thesis defended at
                     FEL CTU 2016)</li>
-                <li>Šimon Ondráček, Personalised Antispam filter for Email.cz, 2016</li>
-                <li>Šimon Let, Phishing Email Detection based on Entity Recognition, 2017</li>
+                <li>Šimon Ondráček; Personalised Antispam filter for
+                    Email.cz; 2016</li>
             </ul>
         </li>
 
@@ -189,6 +199,28 @@
 <h2>PROJECTS</h2>
 
 <div>
+<div class="clearfix block lineBlock">
+    <div class="col-xs-9">
+        <b>YAP - Yet another pipeline</b>
+    </div>
+    <div class="col-xs-3 date">
+        2019 - present
+    </div>
+    <div class="col-xs-12">
+        ML, Pipeline, Golang
+    </div>
+</div>
+<div class="clearfix block lineBlock">
+    <div class="col-xs-9">
+        <b>Stalker</b>
+    </div>
+    <div class="col-xs-3 date">
+        2018 - present
+    </div>
+    <div class="col-xs-12">
+        Active window tracking, Time management, Statistics, Rclone, Python
+    </div>
+</div>
 <div class="clearfix block lineBlock">
     <div class="col-xs-9">
         <b>Autonomous Crypto Currency Trading</b>
@@ -226,8 +258,7 @@
             <li>Lodestarcoffe.cz - Custom made eshop, CMS, Nette, Latte,
                 Bootstrap, jQuery, Doctrine</li>
             <li>Presentation websites - mostly in PHP and JS. Wordpress or
-                custom made
-        CMS</li>
+                custom made CMS</li>
         </ul>
     </div>
 </div>
@@ -277,7 +308,7 @@ More projects at <a href="https://tivvit.cz">tivvit.cz</a> and code at <a href="
     <div class="col-xs-9">
         Machine Learning, Data Processing, Scalability, Database systems
         (SQL, NoSQL), DevOps, Cloud, Git, Web technologies, POSIX, OSS<br>
-        <b>Languages</b>: Python, PHP, C++, JS
+        <b>Languages</b>: Python, GoLang, PHP, C++, JS
     </div>
 </div>
 <div class="clearfix block lineBlock">
@@ -290,6 +321,8 @@ More projects at <a href="https://tivvit.cz">tivvit.cz</a> and code at <a href="
 </div>
 </div>
 
+<div style="page-break-before:always;"></div>
+
 <h2>INTERESTS AND ACTIVITIES</h2>
 
 <div>
@@ -299,7 +332,7 @@ More projects at <a href="https://tivvit.cz">tivvit.cz</a> and code at <a href="
     </div>
     <div class="col-xs-9">
         Programming competitions, Docker, IOT, Distributed Storage, Languages (Rust, Golang), Bitcoin<br>
-        Public speaking<br>
+        <b>Public speaking</b> - tivvit.cz/talks<br>
         <b>GDG ČVUT</b> [since 2013] Event organizer<br>
         <b>GDG Garage Prague</b> [since 2014] Main organizer
     </div>
@@ -323,7 +356,7 @@ More projects at <a href="https://tivvit.cz">tivvit.cz</a> and code at <a href="
 </div>
 </div>
 
-<p id="online-location">You may find actual copy of my CV at <a
+<p id="online-location">You may find latest copy of my CV at <a
         href="https://tivvit.cz/cv">tivvit.cz/cv</a> and <a
         href="https://tivvit.cz/cv.pdf">tivvit.cz/cv.pdf</a>.
 </p>
