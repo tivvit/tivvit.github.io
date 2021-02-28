@@ -22,7 +22,7 @@ services:
     build: firebase
     volumes:
     - ~/.config/:/home/node/.config/
-    command: "firebase login --no-localhost"
+    command: "firebase login --no-localhost --reauth"
   pdf-cv:
     image: openlabs/docker-wkhtmltopdf
     volumes:
