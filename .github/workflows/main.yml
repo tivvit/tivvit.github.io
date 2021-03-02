@@ -1,0 +1,31 @@
+name: Publish site
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+
+jobs:
+  build-publish:
+
+    runs-on: ubuntu-latest
+    environment: github-pages
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build the site in the jekyll/builder container
+      run: |
+        docker run \
+        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+    - name: build PDF CV
+      run: |
+        docker run \
+        -v ${{ github.workspace }}:/data \
+        openlabs/docker-wkhtmltopdf --print-media-type file:///data/_site/cv.html /data/_site/cv.pdf
+    - name: Firebase CLI Deployment
+      uses: doonstore/firebase-deploy@v1
+      env:
+        FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        FIREBASE_PROJECT: tivvit-web
