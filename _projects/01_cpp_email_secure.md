@@ -6,6 +6,8 @@ end: present
 type: cpp
 labels:
     - Boost
+    - Seznam.cz
+    - Email.cz
 ---
 Email.cz
 * DMARC integration (libopendmarc)

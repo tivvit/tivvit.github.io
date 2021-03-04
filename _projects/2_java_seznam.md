@@ -10,5 +10,5 @@ start: 2014
 end: present
 type: java
 ---
-Maintaining and developing Hadoop and Spark jobs. Few TBs of email 
+Maintaining and developing Hadoop and Spark jobs. Several TBs of email 
 traffic metadata generated and processed every day. 

@@ -7,5 +7,7 @@ type: web
 labels:
     - Python
     - Flask
+    - Seznam.cz
+    - Email.cz
 ---
 Internal web pages for monitoring and managing services

@@ -8,6 +8,7 @@ labels:
     - PHP
     - Nette
     - Card payments
+    - Traefik
 link: http://surfarena.cz/
 ---
 Custom made reservation system for indoor surfing

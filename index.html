@@ -9,7 +9,9 @@ id: projects
 
 <ul class="portfolio-nav nav nav-pills">
     <li><a href="#ml">Machine Learning</a></li>
-    <li><a href="#web-projects">Web projects (PHP, Python, JS)</a></li>
+    <li><a href="#web-projects">Web projects</a></li>
+    <li><a href="#golang">Golang</a></li>
+    <li><a href="#contributions">Contributions</a></li>
     <li><a href="#admin">Server / IT administration</a></li>
     <li><a href="#python">Python</a></li>
     <li><a href="#arduino">Arduino</a></li>
@@ -27,10 +29,26 @@ id: projects
     {% endfor %}
 </div>
 
-<h3 id="web-projects">Web projects</h3>
+<h3 id="web-projects">Web projects (Golang, PHP, Python, JS)</h3>
 <div>
     {% assign web_projects = site.projects | where:"type", "web" %}
     {% for project in web_projects reversed %}
+    {{ project | markdownify }}
+    {% endfor %}
+</div>
+
+<h3 id="golang">Golang</h3>
+<div>
+    {% assign golang = site.projects | where:"type", "golang" %}
+    {% for project in golang reversed %}
+    {{ project | markdownify }}
+    {% endfor %}
+</div>
+
+<h3 id="contributions">Contributions</h3>
+<div>
+    {% assign contributions = site.projects | where:"type", "contribution" %}
+    {% for project in contributions reversed %}
     {{ project | markdownify }}
     {% endfor %}
 </div>
