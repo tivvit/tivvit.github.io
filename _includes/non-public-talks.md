@@ -40,7 +40,7 @@
   [slides](https://docs.google.com/presentation/d/197a3RTBVdXqKd65XmBfYmt4w7ETe3zGm0TOkCCljL8E/edit?usp=sharing)
   * 6.4.2017 Syntaxnet [slides](https://docs.google.com/presentation/d/1zMl631lq39OJXYJdrK31dYhHM7UI3wg7VR-pwrN2o48/edit?usp=sharing)
   * 23.3.2017 Attacking machine learning with adversarial examples [slides](https://docs.google.com/presentation/d/1tL3qNnB8ZcE2uhedekdSeqJnPz6wM_yJPpEgqTb7gsQ/edit?usp=sharing)
-  * 9.3.2017 Vawenet [slides](https://docs.google.com/presentation/d/1POh_45F-vRA0J2k-ZXO_JUDDtLpQF80U6sAnrN0SG3c/edit?usp=sharing)
+  * 9.3.2017 WaveNet [slides](https://docs.google.com/presentation/d/1POh_45F-vRA0J2k-ZXO_JUDDtLpQF80U6sAnrN0SG3c/edit?usp=sharing)
   * 23.2.2017 Machine translation [slides](https://docs.google
   .com/presentation/d/133l9KEwFb4PXwkIUFz5kpXnBMO5QZqmi45EHgqhfggE/edit?usp=sharing)
   * 9.2.2017 Deep Reinforcement Learning [slides](https://docs.google.com/presentation/d/1N9FFjTs4bxoh_3UiCLRc3fIXVw4NmzCDgADU1-BqJRk/edit?usp=sharing)
