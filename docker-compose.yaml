@@ -23,7 +23,7 @@ services:
     - ~/.config/:/home/node/.config/
     command: "firebase login --no-localhost --reauth"
   pdf-cv:
-    image: openlabs/docker-wkhtmltopdf
+    image: surnet/alpine-wkhtmltopdf:3.20.2-0.12.6-full
     volumes:
     - $PWD:/data
-    command: "--print-media-type file:///data/_site/cv.html /data/_site/cv.pdf"
+    command: "--enable-local-file-access --print-media-type file:///data/_site/cv.html /data/_site/cv.pdf"

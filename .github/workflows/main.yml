@@ -23,7 +23,7 @@ jobs:
       run: |
         docker run \
         -v ${{ github.workspace }}:/data \
-        openlabs/docker-wkhtmltopdf --print-media-type file:///data/_site/cv.html /data/_site/cv.pdf
+        surnet/alpine-wkhtmltopdf:3.20.2-0.12.6-full --enable-local-file-access --print-media-type file:///data/_site/cv.html /data/_site/cv.pdf
     - name: Firebase CLI Deployment
       uses: w9jds/firebase-action@v15.22.3
       with:
