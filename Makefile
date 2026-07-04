@@ -1,13 +1,13 @@
 all: deploy
 
 generate:
-	docker-compose run generate
+	docker compose run generate
 
 pdf: generate
-	docker-compose run pdf-cv
+	docker compose run pdf-cv
 
 dev:
-	docker-compose up serve
+	docker compose up serve
 
 deploy: pdf
-	docker-compose run firebase-deploy
+	docker compose run firebase-deploy
