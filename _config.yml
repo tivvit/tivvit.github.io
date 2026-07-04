@@ -1,4 +1,6 @@
 name: tivvit.cz
+description: "Vít Listík's personal website containing portfolio projects, machine learning research, talks, and contact information."
+author: "Vít Listík"
 url: https://tivvit.cz
 
 collections:
