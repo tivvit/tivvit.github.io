@@ -13,7 +13,7 @@ jobs:
     environment: github-pages
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
@@ -25,7 +25,7 @@ jobs:
         -v ${{ github.workspace }}:/data \
         surnet/alpine-wkhtmltopdf:3.20.2-0.12.6-full --enable-local-file-access --print-media-type file:///data/_site/cv.html /data/_site/cv.pdf
     - name: Firebase CLI Deployment
-      uses: w9jds/firebase-action@v15.22.3
+      uses: w9jds/firebase-action@v15.22.4
       with:
         args: deploy
       env:
